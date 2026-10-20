@@ -992,3 +992,69 @@ mailProviders:
   activeDevelopment:
     text: 'Yes'
     level: 1
+
+# Secria Mail
+- name: Secria Mail
+  link: https://secria.me/mail/
+  icon: https://secria.me/secrialogo.png
+  discussionId: 0
+  links:
+    - { title: Privacy Policy, href: 'https://secria.me/privacy-policy/' }
+    - { title: Encryption Info, href: 'https://secria.me/whitepaper/mail/' }
+    - { title: Security, href: 'https://secria.me/security/' }
+    - { title: Blog, href: 'https://secria.me/blog/' }
+    - { title: Reddit, href: 'https://www.reddit.com/r/Secria/' }
+    - { title: iOS App, href: 'https://apps.apple.com/us/app/secria-mail/id6756082980' }
+    - { title: Android App, href: 'https://play.google.com/store/apps/details?id=com.secria.webapp' }
+  description: >
+    A US-incorporated service. Encryption is automatic, with no keys to
+    manage. Mail between Secria users, and all mail stored in the mailbox,
+    is sealed with a hybrid ML-KEM-1024 and X25519 key exchange, with
+    AES-256 per message. Mail to and from other providers travels over TLS.
+    Tracking pixels are removed and senders do not see your IP address.
+  jurisdiction:
+    text: United States (5 Eyes)
+    level: 3
+  encryption:
+    text: Hybrid ML-KEM-1024 + X25519 (post-quantum) for internal and stored mail
+    level: 2
+  openSource:
+    text: 'No'
+    level: 3
+  onionSite:
+    text: 'No'
+    level: 3
+  pricing:
+    text: |
+      Free Plan - 1 GB, 2 aliases.
+      Mail Plus from $2.49/mo (2-year) with 20 GB,
+      15 aliases and 3 custom domains
+    level: 1
+  customDomain:
+    text: |
+      Yes
+      (Mail Plus, from $2.49/m)
+    level: 2
+  aliases:
+    text: |
+      Yes
+      (2 on Free Plan, 15 in Mail Plus, unlimited in Pro)
+    level: 2
+  webClientAccess:
+    text: 'No'
+    level: 3
+  securityAudit:
+    text: 'No'
+    level: 3
+  acceptsCrypto:
+    text: 'No'
+    level: 3
+  personalInfoRequired:
+    text: None
+    level: 1
+  mobileApp:
+    text: Yes (iOS and Android)
+    level: 1
+  activeDevelopment:
+    text: 'Yes'
+    level: 1
