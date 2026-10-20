@@ -1047,8 +1047,8 @@ mailProviders:
     text: 'No'
     level: 3
   acceptsCrypto:
-    text: 'No'
-    level: 3
+    text: Yes (BTC and XMR, on the Pro plan)
+    level: 2
   personalInfoRequired:
     text: Requires a name
     level: 2
